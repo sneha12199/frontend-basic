@@ -1,0 +1,30 @@
+ul{
+    background-color: coral;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+ 
+}
+li{
+    list-style-type: none;
+    /* background-color: #f8f4f2; */
+    
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* we can add one div inside another div by using flex box */
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 90, 243);
+}

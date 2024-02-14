@@ -1,0 +1,40 @@
+
+#navbar{
+    height: 70px;
+    color: bisque;
+    background-color:rgb(13, 11, 11);
+   
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: rgb(239, 160, 13);
+   
+}
+#logo{
+    color: rgb(228, 105, 11);
+    font-size: 25px;
+}
+input{
+    color: black;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content{
+    height: 750px;
+    
+}
+footer{
+    background-color: rgb(162, 46, 46);
+    text-align: center;
+}

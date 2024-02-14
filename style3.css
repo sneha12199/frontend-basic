@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:solid black;
+    display: inline-block;
+    color: azure;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#box1{
+    background-image: url("image_unsplash (1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
