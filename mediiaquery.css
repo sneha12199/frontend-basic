@@ -1,0 +1,92 @@
+/* div{
+    height: 50px;
+    width: 50px;
+    background-color:pink;
+}
+@media (width : 600px){
+    div{
+        background-color: red;
+    }
+}
+@media (max-width:600px){
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width :200px) and (max-width:300px){
+    div{
+        background-color: blue;
+    }
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(14, 186, 112);
+    border:2px  solid black;
+    text-align: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 1s; */
+    /* transition: all 3s ease-in 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+    /* transform: rotate(180deg); */
+    /* transform: scale(2,3); */
+    /* transition: all 2s ease-in 2s; */
+    /* animation-name:colorAnimate;
+    animation-duration: 0.5s;
+    /* animation-timing-function: ; */
+    /* animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 2s ease-in 4s infinite normal;
+}
+/* 
+@media(max-width:300px){
+    div{
+        background-color: rgb(154, 246, 15);
+    }
+}
+
+@media(min-width :300px)and (max-width:400px){
+    div{
+        background-color: rgb(240, 103, 11);
+    }
+}
+@media(min-width :400px)and (max-width:600px){
+    div{
+        background-color: rgb(215, 3, 3);
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color: rgb(110, 19, 238);
+    }
+} */
+div:hover{
+    /* background-color: red;
+    color: pink;
+    font-size: 20px;
+    transform: scale(2,2);
+    rotate: 45deg; */
+
+}
+@keyframes colorAnimate{
+    from {
+        left:0px;
+        background-color: yellow ;}
+        50%{
+            background-color: brown;
+        }
+    to{
+        left: 200px;
+        background-color: rebeccapurple;
+    color: aqua;}
+    100%{background-color: tomato;}
+}
